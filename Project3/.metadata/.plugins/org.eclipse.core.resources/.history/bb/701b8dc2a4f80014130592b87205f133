@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String [] args) 
+	{
+		Circle bigCircle = new Circle(10);
+		double bigCircleArea = bigCircle.CalculateArea();
+		System.out.println("big circle's area is: " + bigCircleArea);
+		bigCircle.PrintColor();
+		
+		Circle smallCircle = new Circle (7, "red");
+		double smallCircleArea = smallCircle.CalculateArea();
+		System.out.println("small Circle's area is: " + smallCircleArea);
+		smallCircle.PrintColor();
+	}
+	
+}
